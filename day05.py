@@ -4,24 +4,6 @@ def get_input():
     return input
 
 
-def a():
-    lines = get_input()
-    seeds = [int(seed) for seed in lines[0][7:].split()]
-    changed = [False] * len(seeds)
-    for line in lines[1:]:
-        if line:
-            if not line.endswith(':'):
-                map = [int(val) for val in line.split()]
-                for i in range(len(seeds)):
-                    if not changed[i] and map[1] <= seeds[i] < map[1] + map[2]:
-                        seeds[i] = map[0] + seeds[i] - map[1]
-                        changed[i] = True
-            else:
-                changed = [False] * len(seeds)
-
-    return min(seeds)
-
-
 def get_overlap(source, map, target):
     left = max(source[0], map[0])
     right = min(source[1], map[1])
@@ -36,7 +18,7 @@ def get_overlap(source, map, target):
     return None, [source]
 
 
-def b():
+def part2():
     lines = get_input()
     next_intervals = [int(seed) for seed in lines[0][7:].split()]
     next_intervals = [(next_intervals[i], next_intervals[i] + next_intervals[i + 1] - 1)
