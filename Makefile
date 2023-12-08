@@ -13,3 +13,6 @@ else
 	@echo "Creating pull request..."
 	gh pr create --title "chore: add day$(day)" --body "https://adventofcode.com/$(year)/day/$(day)" --base master
 endif
+
+merge:
+	gh pr merge --squash --delete-branch --auto
