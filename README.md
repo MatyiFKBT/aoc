@@ -20,4 +20,6 @@ deno install --unstable --allow-env --allow-read --allow-write --allow-net -f -n
 | [Day 7](https://adventofcode.com/2023/day/7) | ⭐ | ⭐ |
 | [Day 8](https://adventofcode.com/2023/day/8) | ⭐ | ⭐ |
 | [Day 9](https://adventofcode.com/2023/day/9) | ⭐ | ⭐ |
+| [Day 12](https://adventofcode.com/2023/day/12) | ⭐ | ⭐ |
+| [Day 13](https://adventofcode.com/2023/day/13) | ⭐ | ⭐ |
 <!--- advent_readme_stars table --->
