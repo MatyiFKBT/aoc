@@ -1,4 +1,4 @@
-# Requirements:
+# Requirements
 
 `aoc` cli tool for [Deno](https://deno.land/)
 
@@ -6,7 +6,13 @@
 deno install --unstable --allow-env --allow-read --allow-write --allow-net -f -n aoc https://deno.land/x/advent_of_code/cli.ts
 ```
 
+> [!NOTE]
+> For 2024, I used this repository for better utilities with Deno: <https://github.com/MauritsWilke/AdventOfCode>
+
+## 2024 Results
+
 <!--- advent_readme_stars table --->
+
 ## 2023 Results
 
 | Day | Part 1 | Part 2 |
@@ -22,4 +28,3 @@ deno install --unstable --allow-env --allow-read --allow-write --allow-net -f -n
 | [Day 9](https://adventofcode.com/2023/day/9) | ⭐ | ⭐ |
 | [Day 12](https://adventofcode.com/2023/day/12) | ⭐ | ⭐ |
 | [Day 13](https://adventofcode.com/2023/day/13) | ⭐ | ⭐ |
-<!--- advent_readme_stars table --->
