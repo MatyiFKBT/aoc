@@ -3,7 +3,7 @@
 | Day                                            | Solution Notes                                                                                                                     |
 | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | [Day 1](https://adventofcode.com/2024/day/1)   | Fairly simple task to iterate over two lists. Used a bit of regex in my solution, will try to learn more of that during the month. |
-| [Day 2](https://adventofcode.com/2024/day/2)   | ---                                                                                                                                |
+| [Day 2](https://adventofcode.com/2024/day/2)   | Bunch of array methods. Used array.filter, array.every, array.splice and array.shift. ---                                          |
 | [Day 3](https://adventofcode.com/2024/day/3)   | ---                                                                                                                                |
 | [Day 4](https://adventofcode.com/2024/day/4)   | ---                                                                                                                                |
 | [Day 5](https://adventofcode.com/2024/day/5)   | ---                                                                                                                                |
