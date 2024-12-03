@@ -7,6 +7,10 @@
     "solve": {
       "command": "deno run -A --env-file utils/solve.ts",
       "description": "deno task solve YEAR DAY PART"
+    },
+    "format":{
+      "command": "deno fmt src/",
+      "description": "format source files"
     }
   },
   "imports": {
