@@ -9,8 +9,6 @@ deno install --unstable --allow-env --allow-read --allow-write --allow-net -f -n
 > [!NOTE]
 > For 2024, I used this repository for better utilities with Deno: <https://github.com/MauritsWilke/AdventOfCode>
 
-## 2024 Results
-
 <!--- advent_readme_stars table --->
 ## 2024 Results
 
