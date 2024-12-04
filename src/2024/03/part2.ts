@@ -1,6 +1,6 @@
-export default function solution(input: string) {
-  const pattern = /do\(\)|don\'t\(\)|mul\([0-9]+,[0-9]+\)/g;
-  let sum = 0;
+export default function solution({ input }: Input) {
+  const pattern = /do\(\)|don\'t\(\)|mul\([\d]+,[\d]+\)/g;
+  let result = 0;
   let do_mul = true;
   input.match(pattern)!.forEach((task) => {
     if (task == "do()") {
@@ -9,12 +9,12 @@ export default function solution(input: string) {
       do_mul = false;
     } else {
       if (do_mul) {
-        const numbers = task.match(/[0-9]+/g)?.map(Number)!;
-        sum += [...numbers].reduce((a, b) => a * b);
+        const numbers = task.match(/[\d+]+/g)?.map(Number)!;
+        result += [...numbers].reduce((a, b) => a * b);
       }
     }
   });
-  return sum;
+  return result;
 }
 
 export const tests = [

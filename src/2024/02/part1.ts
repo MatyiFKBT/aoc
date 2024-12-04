@@ -1,7 +1,5 @@
-export default function solution(input: string) {
-  const rows = input.split("\n").filter((v) => v != "").map((w) =>
-    w.split(" ").map((num) => parseInt(num))
-  );
+export default function solution({ lines }: Input) {
+  const rows = lines.map((w) => w.split(" ").map(Number));
   const safe_rows = rows.filter((row) => {
     const diffs = row.map((item, index) => item - row[index - 1]);
     diffs.shift();
