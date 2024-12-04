@@ -1,5 +1,13 @@
 import "../src/utils/index.ts";
 
+declare global {
+  type Input = {
+    input: string;
+    lines: string[];
+    grid: string[][];
+  };
+}
+
 export async function run(
   currentYear: string,
   currentDate: string,
@@ -14,11 +22,12 @@ export async function run(
     )
       .then((c) => new TextDecoder("utf-8").decode(c));
   }
-
+  const lines = input?.split("\n");
+  const grid = lines?.map((line) => line.split(""));
   const { default: solution } = await import(
     `../src/${currentYear}/${formattedDate}/part${part}.ts?t=${Date.now()}`
   );
-  const attempt = solution(input);
+  const attempt = solution({ input, grid, lines });
 
   return attempt;
 }

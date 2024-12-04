@@ -7,13 +7,7 @@ const DATE = Deno.args[1] ?? new Date().getDate();
 const PART = Deno.args[2] ?? 1;
 const SCHEDULED = !!Deno.args[3];
 const formattedDate = `0${DATE}`.slice(-2);
-const TEMPLATE = `export default function solution(input: string) {
-    return;
-}
-
-export const tests = [
-    ["", ],
-]`;
+const TEMPLATE = Deno.readTextFileSync("./utils/template.ts");
 
 if (!SESSION) {
   throw new Error("Make sure you have a .env file with SESSION=<your token>");
