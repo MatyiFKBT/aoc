@@ -22,7 +22,7 @@ export async function run(
     )
       .then((c) => new TextDecoder("utf-8").decode(c));
   }
-  const lines = input?.split("\n");
+  const lines = input?.split("\n").filter((w) => w !== "");
   const grid = lines?.map((line) => line.split(""));
   const { default: solution } = await import(
     `../src/${currentYear}/${formattedDate}/part${part}.ts?t=${Date.now()}`

@@ -1,13 +1,13 @@
-export default function solution(input: string) {
-  const pattern = /mul\([0-9]+,[0-9]+\)/g;
+export default function solution({ input }: Input) {
+  let result = 0;
+  const pattern = /mul\([\d]+,[\d]+\)/g;
   const found = input.match(pattern);
-  let sum = 0;
   found?.forEach((item) => {
-    const numbers = item.match(/[0-9]+/g)?.map((i) => parseInt(i));
+    const numbers = item.match(/[\d]+/g)?.map(Number);
     const mult = [...numbers!].reduce((acc, cur) => acc * cur);
-    sum += mult;
+    result += mult;
   });
-  return sum;
+  return result;
 }
 
 export const tests = [
