@@ -14,8 +14,7 @@ export async function fetchInput(YEAR: string, DATE: string, SESSION: string) {
       {
         headers: {
           "Cookie": `session=${SESSION}`,
-          "User-Agent":
-            "https://github.com/MauritsWilke/AdventOfCode by mauritswilke@gmail.com",
+          "User-Agent": "https://github.com/MatyiFKBT/aoc by aoc@mmatyi.hu",
         },
       },
     );

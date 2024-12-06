@@ -16,8 +16,7 @@ export async function submit(
       headers: {
         "Cookie": `session=${SESSION}`,
         "content-type": "application/x-www-form-urlencoded",
-        // "User-Agent":
-        // 	"https://github.com/MatyiFKBT/aoc",
+        "User-Agent": "https://github.com/MatyiFKBT/aoc by aoc@mmatyi.hu",
       },
       body: `level=${PART}&answer=${ATTEMPT}`,
     },
