@@ -1,13 +1,25 @@
-# Requirements
+# My Advent Of Code solutions
 
-`aoc` cli tool for [Deno](https://deno.land/)
+This repository stores all my [Advent Of Code](https://adventofcode.com) solutions. For the last years, I have been solving the puzzles with TypeScript.
+
+You can check out 2024's solutions in the [2024](./src/2024) directory.
+
+## Requirements
+
+- [Deno](https://deno.land/) v2.1.3+
+
 
 ```bash
-deno install --unstable --allow-env --allow-read --allow-write --allow-net -f -n aoc https://deno.land/x/advent_of_code/cli.ts
+# getting the input
+deno task prep [year] [day] [part] # defaults to the current day, and part 1
+
+# submitting the solution
+deno task solve [year] [day] [part]
+# defaults to the current day and the most recently edited part
 ```
 
 > [!NOTE]
-> For 2024, I used this repository for better utilities with Deno: <https://github.com/MauritsWilke/AdventOfCode>
+> For 2024, I used utilities from this repository to programatically download the input and upload the solution: <https://github.com/MauritsWilke/AdventOfCode>
 
 <!--- advent_readme_stars table --->
 ## 2024 Results
