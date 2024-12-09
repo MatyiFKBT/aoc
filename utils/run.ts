@@ -17,6 +17,7 @@ export async function run(
   const formattedDate = `0${currentDate}`.slice(-2);
 
   if (!input) {
+    // return 0;
     input = await Deno.readFile(
       `./input/${currentYear}/${formattedDate}/input.txt`,
     )
