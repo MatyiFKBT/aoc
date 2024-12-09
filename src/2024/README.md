@@ -9,7 +9,7 @@
 | [Day 5](https://adventofcode.com/2024/day/5)   | Splitting the input into two parts, iterating through them, applying filters and in part2 I used Sets too to fix _invalid updates_. |
 | [Day 6](https://adventofcode.com/2024/day/6)   | ---                                                                                                                                 |
 | [Day 7](https://adventofcode.com/2024/day/7)   | ---                                                                                                                                 |
-| [Day 8](https://adventofcode.com/2024/day/8)   | ---                                                                                                                                 |
+| [Day 8](https://adventofcode.com/2024/day/8)   | It took a bit to understand the task, after that it was "just" working with the grid to find all _antinodes_                        |
 | [Day 9](https://adventofcode.com/2024/day/9)   | ---                                                                                                                                 |
 | [Day 10](https://adventofcode.com/2024/day/10) | ---                                                                                                                                 |
 | [Day 11](https://adventofcode.com/2024/day/11) | ---                                                                                                                                 |
