@@ -37,6 +37,7 @@ deno task solve [year] [day] [part]
 | [Day 9](https://adventofcode.com/2024/day/9) | ⭐ | ⭐ |
 | [Day 10](https://adventofcode.com/2024/day/10) | ⭐ | ⭐ |
 | [Day 11](https://adventofcode.com/2024/day/11) | ⭐ | ⭐ |
+| [Day 16](https://adventofcode.com/2024/day/16) | ⭐ | ⭐ |
 <!--- advent_readme_stars table --->
 
 ## 2023 Results
