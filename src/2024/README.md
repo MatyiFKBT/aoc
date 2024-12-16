@@ -12,7 +12,7 @@
 | [Day 8](https://adventofcode.com/2024/day/8)   | It took a bit to understand the task, after that it was "just" working with the grid to find all _antinodes_                        |
 | [Day 9](https://adventofcode.com/2024/day/9)   | Part 1 was easy, Part 2 (defragmentation) took a long time to calculate.                                                            |
 | [Day 10](https://adventofcode.com/2024/day/10) | ---                                                                                                                                 |
-| [Day 11](https://adventofcode.com/2024/day/11) | ---                                                                                                                                 |
+| [Day 11](https://adventofcode.com/2024/day/11) | Same as day 9, part 1 was really easy, but I had to rewrite the logic to part 2 because of the bigger _blink_ number.               |
 | [Day 12](https://adventofcode.com/2024/day/12) | ---                                                                                                                                 |
 | [Day 13](https://adventofcode.com/2024/day/13) | Had to look for a shortest path for the first part, and calculate scores in the second one.                                         |
 | [Day 14](https://adventofcode.com/2024/day/14) | ---                                                                                                                                 |
