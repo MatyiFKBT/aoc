@@ -1,4 +1,5 @@
 year := $(shell date +%Y)
+day ?= $(shell date +%d)
 
 commit:
 	git add .

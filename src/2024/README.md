@@ -16,3 +16,5 @@
 | [Day 12](https://adventofcode.com/2024/day/12) | ---                                                                                                                                 |
 | [Day 13](https://adventofcode.com/2024/day/13) | Had to look for a shortest path for the first part, and calculate scores in the second one.                                         |
 | [Day 14](https://adventofcode.com/2024/day/14) | ---                                                                                                                                 |
+| [Day 15](https://adventofcode.com/2024/day/15) | ---                                                                                                                                 |
+| [Day 16](https://adventofcode.com/2024/day/16) | ---                                                                                                                                 |
